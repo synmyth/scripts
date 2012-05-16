@@ -1,0 +1,67 @@
+"get out of vi compatible mode
+set nocompatible
+
+"set how many line of history vim has to remember
+set history=400
+
+"set to auto read when a file is changed from the outside
+set autoread
+
+"have the mouse enabled all the time
+set mouse=a
+
+"enable syntax highlight
+syntax on
+syntax enable
+
+"Always show current position
+set ruler
+
+"show line number
+set nu
+
+"No sound on errors or visual
+set noerrorbells
+set novisualbell
+
+"ignore case whe searching
+set ignorecase
+set smartcase
+
+"make search act like search in modern browsers
+set incsearch
+
+"show matching bracet
+set showmatch
+
+"Highlight search thing
+set hlsearch
+
+"Turn backup off
+set nobackup
+set nowb
+set noswapfile
+
+set shiftwidth=8
+set softtabstop=8
+set tabstop=8
+set backspace=2
+set smarttab
+set lbr
+
+"Auto indent
+set ai
+
+"Smart indet
+set si
+
+"Wrap line
+set wrap
+
+"indicate insert or replace mode at bottom
+set showmode
+
+set completeopt=longest,menu
+filetype on
+filetype plugin on
+filetype indent on
