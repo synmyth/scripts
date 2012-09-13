@@ -25,7 +25,7 @@ set noerrorbells
 set novisualbell
 
 "ignore case whe searching
-set ignorecase
+"set ignorecase
 set smartcase
 
 "make search act like search in modern browsers
